@@ -14,6 +14,9 @@ from .views import (
 router = DefaultRouter()
 router.register(r'borrowers', BorrowerViewSet)
 router.register(r'loans', LoanViewSet)
+router.register(r'Credithistory', CreditHistoryView)
+router.register(r'RepaymentSchedule', RepaymentScheduleView)
+router.register(r'OverdueInstallments', OverdueInstallmentsView)
 
 urlpatterns = [
     path('', api_root, name='api-root'),
