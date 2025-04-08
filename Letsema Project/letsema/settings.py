@@ -28,7 +28,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',  # Django REST framework
      'rest_framework_simplejwt',
-    'api',  # Replace with your actual app name
+    'App.js',  # Replace with your actual app name
 ]
 
 # Middleware configuration
